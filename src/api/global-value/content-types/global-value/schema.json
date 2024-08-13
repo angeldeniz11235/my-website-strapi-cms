@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_values",
+  "info": {
+    "singularName": "global-value",
+    "pluralName": "global-values",
+    "displayName": "global_value"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "homepage_url": {
+      "type": "string"
+    }
+  }
+}
