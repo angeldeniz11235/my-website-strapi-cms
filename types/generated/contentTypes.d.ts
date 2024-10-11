@@ -831,6 +831,7 @@ export interface ApiHomeSummaryHomeSummary extends Schema.SingleType {
   };
   attributes: {
     site_description: Attribute.Text;
+    Logo: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
