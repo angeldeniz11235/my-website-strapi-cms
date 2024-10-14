@@ -14,16 +14,6 @@
   "attributes": {
     "site_description": {
       "type": "text"
-    },
-    "Logo": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
     }
   }
 }

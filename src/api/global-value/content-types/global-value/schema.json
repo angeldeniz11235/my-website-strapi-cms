@@ -4,7 +4,8 @@
   "info": {
     "singularName": "global-value",
     "pluralName": "global-values",
-    "displayName": "global_value"
+    "displayName": "global_value",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,16 @@
   "attributes": {
     "homepage_url": {
       "type": "string"
+    },
+    "background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
